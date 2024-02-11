@@ -1,0 +1,4 @@
+.navbar-custom .navbar-nav li a:hover {
+  color: #0F4283;/* Change the text color on hover */
+  font-weight: bold;
+}
