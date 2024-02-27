@@ -1,27 +1,25 @@
-import React from 'react'
-import './App.css';
-import Presentation from './AboutMe'
-import Menu from './Menu'
+
+import './Styles/App.css';
+
+import AboutMe from './pages/AboutMe'
+import Navbar from './Navbar'
+import Home from './pages/Home'
+
+import {Route, Routes} from "react-router-dom"
+
 
 function App() {
   return (
-    <div>
-        <div className="App">
-          <header>
-            <Menu />
-          </header>
-          <h1> Lyna DJELMOUDI </h1>
-          <div className="container text-center mt-4">
-            <img
-              className="rounded-circle d-inline-block p-3"
-              src="/images/lyna.jpeg" // Use an absolute path to the image
-              alt="Lyna DJELMOUDI"
-              height="395"
-              width="395"
-            />
-          </div>
-        </div>
+    <>
+      <Navbar />
+      <div className="container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/pricing" element={<AboutMe />} />
+        </Routes>
       </div>
-  );
+    </>
+  )
 }
+
 export default App;
