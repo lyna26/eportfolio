@@ -1,4 +1,7 @@
-.navbar-custom .navbar-nav li a:hover {
-  color: #0F4283;/* Change the text color on hover */
+.nav .navbar-nav li a: hover {
   font-weight: bold;
+}
+
+.active{
+    background-color:blue;
 }

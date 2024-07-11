@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  background-color: #a8dadc
 }
 
 .container {
@@ -12,7 +13,7 @@ body {
 }
 
 .nav {
-  background-color: #333;
+  background-color: #1d3557;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -47,5 +48,9 @@ body {
 }
 
 .nav li:hover {
-  background-color: #777;
+  background-color: #457b9d;
+}
+
+h1{
+    color: #555
 }
