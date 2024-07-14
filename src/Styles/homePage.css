@@ -54,11 +54,6 @@ p {
     text-align : justify;
 }
 
-body{
-background-color: grey;
-}
-
-
 /* The actual timeline (the vertical ruler) */
 .timeline {
   position: relative;

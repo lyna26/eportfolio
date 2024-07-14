@@ -7,7 +7,7 @@ export default function Navbar() {
         Lyna DJELMOUDI
       </Link>
       <ul>
-        <CustomLink to="/Formation">Formation</CustomLink>
+        <CustomLink to="/Education">Education</CustomLink>
         <CustomLink to="/Experience">Experience</CustomLink>
         <CustomLink to="/Hobbies">Hobbies</CustomLink>
       </ul>

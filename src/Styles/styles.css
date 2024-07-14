@@ -7,6 +7,10 @@ body {
   background-color: #a8dadc
 }
 
+body, p, div, span, article, section {
+    text-align: justify;
+}
+
 .container {
   margin: 1rem;
   text-align: center;
